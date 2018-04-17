@@ -1,0 +1,222 @@
+.view textarea {
+    width: 100%;
+}
+
+.demo .box .view {
+    padding-top: 5px !important;;
+}
+
+h1, h3 {
+    margin: 0 !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.table th.success {
+    text-align: center !important;
+}
+
+.text-box-table {
+    width: 100%;
+}
+
+.edit .demo .edit-text {
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    z-index: 10;
+    background-color: #777;
+}
+
+.edit .demo .edit-text:hover {
+    background-color: #303030;
+}
+
+.edit .demo .active {
+    background-color: #303030 !important;
+}
+
+.reverse {
+    cursor: pointer;
+}
+
+.text-input {
+    width: 100% !important;
+    max-width: 200px !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.cencel {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+
+.cancel {
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.save-form {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.save-form  i{
+    font-size: 22px;
+    float: right;
+}
+
+.right-text {
+    position: absolute;
+    display: none;
+    background: white;
+}
+
+.new-group {
+    height: 25px;
+    position: absolute;
+    color: red;
+    font-size: 10px;
+    cursor: pointer;
+    top: 16px;
+    right: 1px;
+}
+
+.new-group:hover {
+    text-decoration: underline;
+}
+
+.block {
+    position: absolute;
+    border: 1px solid;
+    height: 18px;
+    border-radius: 2px;
+    z-index: 9;
+    background: #666;
+}
+
+.block-1 {
+    width: 105px;
+}
+
+.block-6-1 {
+    width: 50px;
+}
+
+.block-6-2 {
+    width: 50px;
+    right: 55px;
+}
+
+.block-8-1 {
+    width: 60px;
+}
+
+.block-8-2 {
+    width: 40px;
+    right: 55px;
+}
+
+.block-4-1 {
+    width: 32px;
+}
+
+.block-4-2 {
+    width: 32px;
+    left: 36px;
+}
+
+.block-4-3 {
+    width: 32px;
+    left: 73px;
+}
+.block-4-4{
+    width: 40px;
+}
+.block-4-8{
+    width: 60px;
+    left: 45px;
+}
+
+#user-view .column, #user-view  .row{
+    border: none;
+}
+.empty-active {
+    border-color: red;
+}
+#save-data{
+    text-align: center;
+    /*float: right;*/
+}
+.save-button{
+    width:100%;
+    text-align: center;
+}
+#user-view .box{
+margin: 0;
+}
+.user-form .user-name span{
+    float: right;
+    font-size: 25px;
+    color: #3c8dbc;
+    margin-top: 5px;
+}
+.user-form .user-name-title span {
+    float: right;
+    font-size: 25px;
+    color: #245774;
+    margin-top: 5px;
+}
+.user-form .user-form {
+    font-size: 25px;
+    color: #245774;
+    margin-top: 5px;
+}
+.user-form-button{
+    margin-top: 15px;
+    text-align: center;
+}
+#pdf .column{
+    /*border: none;*/
+}
+.search{
+    float: right;
+}
+#form-data-table_filter{
+    display: none;
+}
+.search input{
+    height: 36px;
+    border-radius: 9px;
+    font-size: 29px;
+}
+.search button{
+    margin-top: -16px;
+}
+.pdf-d{
+    float: right;
+}
+#form-data-table input {
+    width: 90%;
+    padding: 3px;
+    display: block;
+    box-sizing: border-box;
+}
+#form-data-table thead th:last-child{
+    display: none;
+}
+#form-data-table td a{
+    float: right;
+}
+.m-active{
+    display: block!important;
+}

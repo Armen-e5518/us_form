@@ -1,0 +1,1 @@
+$(".darken").hover(function(){$(this).find("img").fadeTo(500,.5)},function(){$(this).find("img").fadeTo(500,1)});

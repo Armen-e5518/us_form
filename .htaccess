@@ -1,0 +1,29 @@
+#Options FollowSymLinks
+#AddDefaultCharset utf-8
+
+<ifmodule mod_rewrite.c>
+   RewriteEngine On
+
+
+#  RewriteCond %{REQUEST_URI} !^/(forms/backend/web|forms/admin)
+#   RewriteRule !^frontend/web /forms/frontend/web/%{REQUEST_URI} [L]
+
+
+  RewriteCond %{REQUEST_URI} ^/forms/admin
+   RewriteRule ^admin(.*) /forms/backend/web/$1 [L]
+
+
+ RewriteCond %{REQUEST_URI} ^/forms
+   RewriteRule (.*) /forms/frontend/web/$1 [L]
+
+
+##  RewriteCond %{REQUEST_URI} ^/frontend/web
+#   RewriteCond %{REQUEST_FILENAME} !-f
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   # otherwise forward the request to index.php
+#  RewriteRule (.*) /forms/frontend/web/$1 [L]
+
+
+   RewriteCond %{REQUEST_URI} \.(htaccess|htpasswd|svn|git)
+   RewriteRule \.(htaccess|htpasswd|svn|git) - [F]
+</ifmodule>
