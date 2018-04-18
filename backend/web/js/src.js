@@ -209,6 +209,7 @@ function FindElementEdit(ob, isEditable) {
     ob.closest('.box-element').find('.view').find('en').prop('contenteditable', !isEditable).toggleClass('editable');
     ob.closest('.box-element').find('.view').find('th').prop('contenteditable', !isEditable).toggleClass('editable');
     ob.closest('.box-element').find('.view').find('button').prop('contenteditable', !isEditable).toggleClass('editable');
+    ob.closest('.box-element').find('.view').find('.paragraph').prop('contenteditable', !isEditable).toggleClass('editable');
 }
 
 function Reverse(ob) {

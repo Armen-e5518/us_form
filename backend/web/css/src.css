@@ -1,4 +1,4 @@
-                            @import url('https://fonts.googleapis.com/css?family=Oswald:400,600');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600');
 
 body {
     padding-bottom: 0px !important;
@@ -20,6 +20,7 @@ body {
 .col-md-4 {
     width: 33.33333333%;
 }
+
 .edit .demo .column .box .configuration input {
     min-height: 28px;
 }
@@ -28,14 +29,17 @@ body {
     top: -18px !important;
     right: auto !important;
 }
+
 .edit .demo .column .box .configuration i {
     position: relative;
     top: 6px;
 }
-.edit .demo .column .box .configuration select{
+
+.edit .demo .column .box .configuration select {
     width: 90px;
-  min-width:auto;
+    min-width: auto;
 }
+
 .view textarea {
     width: 100%;
 }
@@ -63,7 +67,7 @@ h1, h3 {
 }
 
 h1 {
-    font-size: 28px ;
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -76,32 +80,32 @@ p {
     font-weight: 600;
 }
 
-.view h2, .view h3, .view h4 {
+#html-data .view h2, #html-data .view h3, #html-data .view h4 {
     background-color: #ddd;
-    color: #003875 !important;
+    color: #003875;
     font-family: 'Oswald', sans-serif;
 }
 
-.view h1 {
+#html-data .view h1 {
     font-size: 25px;
     background-color: #003875;
     color: #fff;
 }
 
-.view h2 {
-    font-size: 20px !important;
+#html-data .view h2 {
+    font-size: 20px ;
 }
 
-.view h3 {
-    font-size: 15px !important;
+#html-data .view h3 {
+    font-size: 15px ;
 }
 
-.view h4 {
-    font-size: 10px !important;
+#html-data .view h4 {
+    font-size: 10px ;
 }
 
 .view .drag {
-    font-size: 10px !important;
+    font-size: 10px ;
 }
 
 .content-user-data, .skin-blue .content-header {
@@ -581,10 +585,10 @@ select {
     #form-data-table td a {
         margin-bottom: 3px;
     }
-  
+
     .edit .demo .column .box .configuration .i_description {
-      width: auto !important;
-  }
+        width: auto !important;
+    }
 }
 
 .text-title {
@@ -619,40 +623,40 @@ select {
 
 @media (max-width: 768px) {
     .image-block img {
-        width: 100% !important;
+        width: 100% ;
     }
 
-    .view h1 {
-        font-size: 20px !important;
+    #html-data   .view h1 {
+        font-size: 20px ;
     }
 
-    .view h2 {
-        font-size: 17px !important;
+    #html-data  .view h2 {
+        font-size: 17px ;
     }
 
-    .view p {
-        font-size: 15px !important;
+    #html-data  .view p {
+        font-size: 15px ;
     }
 
-    .view h1, .view h2, .view h3, .view h4 {
+    #html-data   .view h1, .view h2, .view h3, .view h4 {
         padding: 5px;
     }
 }
 
 @media (max-width: 568px) {
-    .view h1 {
-        font-size: 17px !important;
+    #html-data  .view h1 {
+        font-size: 17px ;
     }
 
-    .view h2 {
-        font-size: 15px !important;
+    #html-data  .view h2 {
+        font-size: 15px ;
     }
 
-    .view p {
-        font-size: 13px !important;
+    #html-data  .view p {
+        font-size: 13px ;
     }
 
-    .file-c, .view span {
+    #html-data .file-c, .view span {
         font-size: 14px;
         padding-right: 3px;
     }
@@ -724,6 +728,10 @@ select {
     vertical-align: middle;
     font-size: 15px !important;
 }
-.colorpicker{
+
+.colorpicker {
     z-index: 999999;
+}
+#user-view  .title_info{
+    display: none;
 }

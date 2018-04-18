@@ -28,8 +28,8 @@ h1, h3 {
     margin: 0 !important;
 }
 
-h1 {
-    font-size: 28px !important;
+#user-view h1 {
+    font-size: 28px ;
     font-weight: 500;
 }
 

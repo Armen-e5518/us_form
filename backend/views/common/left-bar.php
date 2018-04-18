@@ -304,7 +304,7 @@
                     <span class="configuration">
                         <span class="btn-group btn-group-xs n-empty">
                             <input type="text" style="width: 400px;" class="i_description"
-                                        placeholder="Description">
+                                   placeholder="Description">
                              <input type="number" style="width: 80px;" class="i_font_size" placeholder="Font size">
                             <i style="font-size: 20px;"
                                title="Background Color"
@@ -333,11 +333,10 @@
                             </select>
                             <select class="i_fonts" style="max-width: none;">
                               <option value="">Fonts</option>
-                              <option value="'Roboto', sans-serif">Roboto</option>
-                              <option value="'Lato', sans-serif">Lato</option>
-                              <option value="'Oswald', sans-serif">Oswald</option>
-                              <option value="'Source Sans Pro', sans-serif">Source Sans Pro</option>
-                              <option value="'Slabo 27px', serif">Slabo 27px</option>
+                              <option value="Roboto, sans-serif">Roboto</option>
+                              <option value="Lato, sans-serif">Lato</option>
+                              <option value="Oswald, sans-serif">Oswald</option>
+                              <option value="Source Sans Pro, sans-serif">Source Sans Pro</option>
                             </select>
 					    </span>
                     </span>
@@ -393,11 +392,10 @@
                             </select>
                             <select class="i_fonts" style="max-width: none;">
                               <option value="">Fonts</option>
-                              <option value="'Roboto', sans-serif">Roboto</option>
-                              <option value="'Lato', sans-serif">Lato</option>
-                              <option value="'Oswald', sans-serif">Oswald</option>
-                              <option value="'Source Sans Pro', sans-serif">Source Sans Pro</option>
-                              <option value="'Slabo 27px', serif">Slabo 27px</option>
+                              <option value="Roboto, sans-serif">Roboto</option>
+                              <option value="Lato, sans-serif">Lato</option>
+                              <option value="Oswald, sans-serif">Oswald</option>
+                              <option value="Source Sans Pro, sans-serif">Source Sans Pro</option>
                             </select>
 					    </span>
                     </span>
@@ -453,11 +451,10 @@
                             </select>
                             <select class="i_fonts" style="max-width: none;">
                               <option value="">Fonts</option>
-                              <option value="'Roboto', sans-serif">Roboto</option>
-                              <option value="'Lato', sans-serif">Lato</option>
-                              <option value="'Oswald', sans-serif">Oswald</option>
-                              <option value="'Source Sans Pro', sans-serif">Source Sans Pro</option>
-                              <option value="'Slabo 27px', serif">Slabo 27px</option>
+                              <option value="Roboto, sans-serif">Roboto</option>
+                              <option value="Lato, sans-serif">Lato</option>
+                              <option value="Oswald, sans-serif">Oswald</option>
+                              <option value="Source Sans Pro, sans-serif">Source Sans Pro</option>
                             </select>
 					    </span>
                     </span>
@@ -513,11 +510,10 @@
                             </select>
                             <select class="i_fonts" style="max-width: none;">
                               <option value="">Fonts</option>
-                              <option value="'Roboto', sans-serif">Roboto</option>
-                              <option value="'Lato', sans-serif">Lato</option>
-                              <option value="'Oswald', sans-serif">Oswald</option>
-                              <option value="'Source Sans Pro', sans-serif">Source Sans Pro</option>
-                              <option value="'Slabo 27px', serif">Slabo 27px</option>
+                              <option value="Roboto, sans-serif">Roboto</option>
+                              <option value="Lato, sans-serif">Lato</option>
+                              <option value="Oswald, sans-serif">Oswald</option>
+                              <option value="Source Sans Pro, sans-serif">Source Sans Pro</option>
                             </select>
 					    </span>
                     </span>
@@ -604,17 +600,16 @@
                             </select>
                             <select class="i_fonts" style="max-width: none;">
                               <option value="">Fonts</option>
-                              <option value="'Roboto', sans-serif">Roboto</option>
-                              <option value="'Lato', sans-serif">Lato</option>
-                              <option value="'Oswald', sans-serif">Oswald</option>
-                              <option value="'Source Sans Pro', sans-serif">Source Sans Pro</option>
-                              <option value="'Slabo 27px', serif">Slabo 27px</option>
+                              <option value="Roboto, sans-serif">Roboto</option>
+                              <option value="Lato, sans-serif">Lato</option>
+                              <option value="Oswald, sans-serif">Oswald</option>
+                              <option value="Source Sans Pro, sans-serif">Source Sans Pro</option>
                             </select>
 					    </span>
                     </span>
                     <div class="preview">Paragraph</div>
                     <div class="view">
-                        <p class="editable_object">Text</p>
+                        <div class="paragraph editable_object">Text</div>
                     </div>
                 </div>
                 <div class="box box-element ui-draggable">

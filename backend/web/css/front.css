@@ -48,16 +48,16 @@ select {
     padding-bottom: 13px;
 }
 
-.view p {
-    font-size: 16px !important;
+#user-view .view .paragraph {
+    font-size: 16px;
 }
 
 h1, h3 {
     margin: 0 !important;
 }
 
-h1 {
-    font-size: 28px !important;
+#user-view h1 {
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -70,27 +70,27 @@ p {
     font-weight: 600;
 }
 
-.view h2, .view h3, .view h4 {
+#user-view .view h2,#user-view .view h3#user-view, .view h4 {
     background-color: #ddd;
-    color: #003875 !important;
+    color: #003875 ;
 }
 
-.view h1 {
-    font-size: 25px !important;
+#user-view .view h1 {
+    font-size: 25px ;
     background-color: #003875;
-    color: #fff !important;
+    color: #fff ;
 }
 
-.view h2 {
-    font-size: 20px !important;
+#user-view .view h2 {
+    font-size: 20px ;
 }
 
-.view h3 {
-    font-size: 15px !important;
+#user-view .view h3 {
+    font-size: 15px ;
 }
 
-.view h4 {
-    font-size: 10px !important;
+#user-view .view h4 {
+    font-size: 10px;
 }
 
 .display-none {
@@ -683,19 +683,19 @@ select {
 
 @media (max-width: 768px) {
     .image-block img {
-        width: 100% !important;
+        width: 100% ;
     }
 
-    .view h1 {
-        font-size: 20px !important;
+    #user-view   .view h1 {
+        font-size: 20px ;
     }
 
-    .view h2 {
-        font-size: 17px !important;
+    #user-view  .view h2 {
+        font-size: 17px ;
     }
 
-    .view p {
-        font-size: 15px !important;
+    #user-view .view p {
+        font-size: 15px ;
     }
 
     .view h1, .view h2, .view h3, .view h4 {
@@ -704,16 +704,16 @@ select {
 }
 
 @media (max-width: 568px) {
-    .view h1 {
-        font-size: 17px !important;
+    #user-view  .view h1 {
+        font-size: 17px ;
     }
 
-    .view h2 {
-        font-size: 15px !important;
+    #user-view .view h2 {
+        font-size: 15px ;
     }
 
-    .view p {
-        font-size: 13px !important;
+    #user-view .view p {
+        font-size: 13px ;
     }
 
     .file-c, .view span {
@@ -743,7 +743,9 @@ select {
 #user-view .box-element{
     padding: 15px 0;
 }
-
-#user-view textarea{
-    font-size: 13px;
+.editable_object{
+    padding-left: 29px!important;
+}
+#user-view .editable_object{
+    padding-left: 29px!important;
 }
