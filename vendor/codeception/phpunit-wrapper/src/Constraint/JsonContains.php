@@ -49,6 +49,8 @@ class JsonContains extends \PHPUnit\Framework\Constraint\Constraint
                 $failure
             );
         }
+
+        return false;
     }
 
     /**
@@ -56,7 +58,7 @@ class JsonContains extends \PHPUnit\Framework\Constraint\Constraint
      *
      * @return string
      */
-    public function toString()
+    public function toString() : string
     {
         //unused
         return '';

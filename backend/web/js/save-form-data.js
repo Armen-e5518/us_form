@@ -90,11 +90,12 @@ function CheckNotEmptyAndEmailVal(scroll_flag, FlagFileSize) {
 
     $('#user-view .gen-file[type="file"]').each(function () {
         var ob = $(this);
-        console.log('File');
+
         $(this).bind('change', function () {
             console.log(this.files[0].size);
             if (typeof this.files[0].size != 'undefined') {
                 if (this.files[0].size > MaxFileSize) {
+                    console.log('MaxFileSize');
                     ob.attr('file-size','false');
                     out('MaxFileSizeHtml');
                     $(this).addClass('empty-active')
@@ -131,9 +132,11 @@ function CheckNotEmptyAndEmailVal(scroll_flag, FlagFileSize) {
                 }
             });
             if (!rad_flag) {
+                console.log(val)
+                console.log('checked-required')
                 flag = false;
                 var checked_required_ob = $('#user-view .checked-required[name-required="' + val + '"]');
-                checked_required_ob.closest('div').find('.name-title').addClass('radio-active')
+                checked_required_ob.closest('div').find('.name-title').addClass('radio-active');
                 if (scroll_flag) {
                     $('body').scrollTop(checked_required_ob.offset().top - 80);
                 }
@@ -145,6 +148,7 @@ function CheckNotEmptyAndEmailVal(scroll_flag, FlagFileSize) {
     $('#user-view .gen-file[type="file"]').each(function () {
         if(flag){
             if($(this).attr('file-size') == 'false'){
+                console.log('file-size false')
                 flag = false;
             }
         }

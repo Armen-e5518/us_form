@@ -1,4 +1,5 @@
 <?php
+
 namespace backend\controllers;
 
 
@@ -11,7 +12,6 @@ use backend\models\ResetPassword;
 use common\models\SearchForm;
 use common\models\UsersForms;
 use kartik\mpdf\Pdf;
-use Dompdf\Dompdf;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -178,9 +178,9 @@ class SiteController extends Controller
         if (!empty($fid) && !empty($id)) {
             $file = Helper::GetZipUrl($fid, $id);
             if (file_exists($file['zip']) && $file['flag']) {
-                Yii::$app->response->sendFile((string)$file['zip']);
+                return Yii::$app->response->sendFile((string)$file['zip']);
             } else {
-                $this->redirect(Yii::$app->urlManager->baseUrl.'/site/no-file');
+                return $this->redirect(Yii::$app->urlManager->baseUrl . '/site/no-file');
             }
         }
     }
@@ -277,12 +277,12 @@ class SiteController extends Controller
 // call mPDF methods on the fly
             'methods' => [
                 'SetHeader' => [$form_data['user_first_name_1'] . ' ' . $form_data['user_last_name_1'] .' '. date('Y-m-d')],
-                'SetFooter' => ['U.S. Embassy in Armenia | {PAGENO}'],
+                'SetFooter' => ['U.S. Embassy in Armenia | {PAGENO} |'],
             ]
         ]);
-        Yii::$app->response->format = \yii\web\Response::FORMAT_RAW;
-        $headers = Yii::$app->response->headers;
-        $headers->add('Content-Type', 'application/pdf');
+//        Yii::$app->response->format = \yii\web\Response::FORMAT_RAW;
+//        $headers = Yii::$app->response->headers;
+//        $headers->add('Content-Type', 'application/pdf');
         // return the pdf output as per the destination setting
         return $pdf->render();
     }

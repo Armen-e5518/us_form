@@ -221,7 +221,6 @@ function Reverse(ob) {
 function out(x) {
     console.log(x)
 }
-
 function NameGenerator(text, ob) {
     var title = 'name'
     // if (ob) {
@@ -235,7 +234,7 @@ function NameGenerator(text, ob) {
     //          title = GetNormalName(title);
     //      }
     // }
-    var text = text + '_' + title + '_';
+    var text = text + '_' + title + '_';File
     var possible = "1234567890qwertyuioplkjhgfdsazxcvbnm";
     for (var i = 0; i < 5; i++) text += possible.charAt(Math.floor(Math.random() * possible.length));
     return text;

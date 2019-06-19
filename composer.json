@@ -15,15 +15,15 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0",
-        "yiisoft/yii2": "2.0.12.2",
+        "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "dmstr/yii2-adminlte-asset": "*",
         "kartik-v/yii2-widget-select2": "@dev",
         "kartik-v/yii2-widgets": "*",
         "boundstate/yii2-htmlconverter": "*",
-        "kartik-v/yii2-mpdf": "*",
-        "dompdf/dompdf": "dev-master"
+        "kartik-v/yii2-mpdf": "1.0.5",
+        "mpdf/mpdf": "7.1.9"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

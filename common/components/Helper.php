@@ -186,7 +186,7 @@ class Helper
             // call mPDF methods on the fly
             'methods' => [
                 'SetHeader' => [$form_data['user_first_name_1'] . ' ' . $form_data['user_last_name_1'] . ' ' . date('Y-m-d')],
-                'SetFooter' => ['U.S. Embassy in Armenia | {PAGENO}'],
+                'SetFooter' => ['U.S. Embassy in Armenia | {PAGENO} | dev'],
             ]
         ]);
         \Yii::$app->response->format = \yii\web\Response::FORMAT_RAW;
